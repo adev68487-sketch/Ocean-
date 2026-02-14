@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500&display=swap");
+
+body {
+  margin: 0;
+  overflow: hidden;
+  font-family: Ubuntu, sans-serif;
+}
+
+canvas {
+  display: block;
+}
+
+#info {
+  position: absolute;
+  top: 10px;
+  width: 100%;
+  text-align: center;
+  color: white;
+  pointer-events: none;
+  z-index: 100;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+.dg.main {
+  position: absolute !important;
+  bottom: 10px !important;
+  right: 10px !important;
+  top: auto !important;
+  left: auto !important;
+}
+.dg.main .close-button {
+  display: none !important;
+}
+.dg.main .close-button.close-bottom {
+  display: none !important;
+}
+.dg {
+  color: #eee;
+  font: 11px "Lucida Grande", sans-serif;
+  text-shadow: 0 -1px 0 #111;
+}
+.dg .c .slider {
+  background: #1a1a1a;
+}
+.dg .c .slider:hover {
+  background: #2a2a2a;
+}
+.dg .c input[type="text"] {
+  background: #303030;
+  color: #eee;
+}
+.dg .c input[type="text"]:hover {
+  background: #3a3a3a;
+}
+.dg .cr.function:hover,
+.dg .cr.boolean:hover {
+  background: #111;
+}
